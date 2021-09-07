@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+    <title>SiteTemaLivre</title>
+</head>
+<body>
+    <header>
+        <div id="tituloCabeçalho">
+            <h1 id="sounds">SOUNDS</h1>
+            <h1 id="e">&</h1>
+            <h1 id="beats">BEATS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="">GENEROS</a></li>
+                <li><a href="">ARTISTAS</a></li>
+                <li><a href="">ALBUNS</a></li>
+                <li><a href="">PLAYLISTS</a></li>
+                <li id="sugestões"><a href="">SUGESTÕES</a></li>
+            </ul>
+        </nav>
+        <div id="fotoMenu">
+            <img src="./Imagens/menuHambuerger.jpg"/>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="tituloMain">
+                <h2>Sugestões</h2>
+            </div>
+            <div id="flex1" class="flex">
+                <div>
+                    <div>
+                        <img src="./Imagens/highEnoughK.Flay.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>High Enough</h3>
+                        <h4>K. Flay</h4>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./Imagens/VIP-LuisasSonza.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>VIP*_*</h3>
+                        <h4>Luísa Sonza</h4>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./Imagens/lies.jpg"/>
+                    </div>  
+                    <div class="nomes">
+                        <h3>Lies</h3>
+                        <h4>Two Feet</h4>
+                    </div>
+                </div>
+                <div class="desk">
+                    <div>
+                        <img src="./Imagens/cashshit.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>Cash Shit</h3>
+                        <h4>Megan Thee Stallion</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <div>
+                    <div>
+                        <img src="./Imagens/tantrum-ashnikko.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>Tantrum</h3>
+                        <h4>Ashnikko</h4>
+                    </div>
+                </div> 
+                <div>
+                    <div>
+                        <img src="./Imagens/guysmyage.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>Guys My Age</h3>
+                        <h4>Hey Violet</h4>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./Imagens/iggy-azalea-sip-it.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>Sip It</h3>
+                        <h4>Iggy Azalea</h4>
+                    </div>
+                </div>
+                <div class="desk">
+                    <div>
+                        <img src="./Imagens/cryBaby.jpg"/>
+                    </div>
+                    <div class="nomes">
+                        <h3>Cry Baby</h3>
+                        <h4>Melanie Martinez</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="insta">
+            <img src="./Imagens/ÍCONEINSTA.png"/>
+        </div>
+        <div id="fone">
+            <img src="./Imagens/fone.jpg"/>
+        </div>
+        <div id="fb">
+            <img src="./Imagens/ICONEFB.png"/>
+        </div>
+    </footer>
+</body> 
+<script>
+    let nav= document.querySelector("nav")
+    let icon= document.querySelector("#fotoMenu")
+    icon.onclick=function(){
+        if(nav.style.display=="none")
+            nav.style.display="block"
+        else
+            nav.style.display="none"
+    }
+</script>
+</html>

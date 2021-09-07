@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rozha One', serif;
+}
+header{
+    display: flex;
+    width: 100vw;
+    height: 12.2vh;
+    background: url("../Imagens/whitesoundwaves.jpg") no-repeat;
+    background-position: center;
+    position: fixed;
+}
+header div{
+    background-color: #ffffff2d;
+}
+#tituloCabeçalho{
+    width: 80vw;
+    padding-left: 5vw;
+}
+#tituloCabeçalho h1{
+    float: left;
+}
+#e{
+    color: #4f4f4f;
+    margin-top: 2.3vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+#beats{
+    margin-top: 4.9vh;
+}
+#fotoMenu{
+    width: 20vw;
+    height: 12vh;
+}
+#fotoMenu img{
+    width: 70%;
+    height: 75%;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+}
+nav{
+    position: absolute;
+    margin-top: 12.1vh;
+    width: 50vw;
+    height: 36vh;
+    background-color: #c4c4c4;
+    margin-left: 50vw;
+    display: none;
+}
+nav ul{
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    text-align: center;
+    padding: 0.5vh 0 0.5vh 0;
+    border-bottom: 1px solid #000000;
+}
+#sugestões{
+    border-bottom: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+}
+#tituloMain{
+    background-color: #ffffffce;
+}
+#tituloMain h2{
+    text-align: center;
+    font-size: 28px;
+}
+main section{
+    padding-top:12vh; 
+}
+main{
+    background: url("../Imagens/fundosite.jpeg") no-repeat;
+    background-position: center;
+    background-size: 240vw;
+    min-height: 90vh;
+}
+main div div{
+    width: 15vh;
+    height: 15vh;
+}
+main div div div img{
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+#flex1{
+    margin-top: 5vh;
+    margin-bottom: 3.5vh;
+}
+.nomes{
+    height: 8vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-top: 0.5vh;
+}
+h3{
+    color: #ffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+h4{
+    color: #ffff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+.desk{
+    display: none;
+}
+footer{
+    width: 100vw;
+    height: 13.4vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    bottom: 0%;
+    position: fixed;
+}
+footer div{
+    align-self: center;
+}
+#insta{
+    width: 11vw;
+    height: 6vh;
+    margin-left: 4vw;
+}
+#fone{
+    width: 35vw;
+    height: 12vh;
+}
+#fb{
+    width: 11vw;
+    height: 6vh;
+    margin-right: 3.9vw;
+}
+footer div img{
+    width: 100%;
+    height: 100%;
+}
+/*---Pixel 2 XL---*/
+@media only screen and (min-width: 400px)
+                   and (min-height: 820px){
+                    h3{
+                        font-size: 19px;
+                    }
+                    h4{
+                        font-size: 17px;
+                    }
+                    main{
+                        background-size: 255vw;
+                    }
+                    main div div{
+                        width: 14.5vh;
+                        height: 14.5vh;
+                    }
+                    #tituloMain h2{
+                        font-size: 31px;
+                    }
+
+                    #tituloCabeçalho{
+                        padding-top: 0.6vh;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 36px
+                    }
+
+                    nav{
+                        height: 31vh;
+                    }
+                    nav ul li a{
+                        font-size: 24px;
+                    }
+}
+/*---iPhone 5/SE---*/
+@media only screen and (max-width: 320px)
+                   and (min-height: 560px){
+                    #tituloCabeçalho h1{
+                        font-size: 30px
+                    }
+                    nav{
+                        height: 36vh;
+                    }
+                    nav ul li a{
+                        font-size: 20px;
+                    }
+                    #tituloMain h2{
+                        font-size: 25px;
+                    }
+                    h3{
+                        font-size: 15px;
+                    }
+                    h4{
+                        font-size: 13px;
+                    }
+                    main div div{
+                        width: 16.5vh;
+                        height: 16.5vh;
+                    }
+}
+/*---iPhone 6/7/8 Plus---*/
+@media only screen and (min-width: 414px)
+                   and (min-height: 730px){
+                    nav{
+                        height: 35.5vh;
+                    }
+                    nav ul li a{
+                        font-size: 25px;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 35px
+                    }
+                    h3{
+                        font-size: 18px;
+                    }
+                    h4{
+                        font-size: 15px;
+                    }
+}
+/*---iPhone X---*/
+@media only screen and (min-width: 370px)
+                   and (min-height: 810px){
+                    main{
+                        background-size: 280vw;
+                    }
+                    main div div{
+                        width: 14vh;
+                        height: 14vh;
+                    }
+                    h3{
+                        font-size: 18px
+                    }
+                    h4{
+                        font-size: 16px;
+                    }
+                    .nomes{
+                        padding-top:1vh;
+                    }
+                    #tituloCabeçalho{
+                        padding-top: 0.9vh;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 35px;
+                    }
+                    #tituloMain h2{
+                        font-size: 30px;
+                    }
+                    nav{
+                        height: 33vh;
+                    }
+                    nav ul li a{
+                        font-size: 25px;
+                    }
+}
+/*---iPad---*/
+@media only screen and (min-width: 760px)
+                   and (min-height: 1024px){
+                    header{
+                        background-size: 100vw;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 60px;
+                    }
+                    #tituloCabeçalho{
+                        padding-top: 0;
+                    }
+                    #e{
+                        margin-right: 3vw;
+                        margin-left: 3vw;
+                    }
+                    #beats{
+                        margin-top: 4vh;
+                    }
+                    #tituloMain h2{
+                        font-size: 42px;
+                    }
+                    main div div{
+                        width: 19vh;
+                        height: 19vh;
+                    }
+                    #flex1{
+                        margin-bottom: 2vh;
+                    }
+                    h3{
+                        font-size: 29px;
+                    }
+                    h4{
+                        font-size: 24px;
+                    }
+                    .nomes{
+                        padding-top: 0.5px;
+                    }
+                    main{
+                        background-size: 200vw;
+                    }
+                    nav{
+                        height: 38vh;
+                    }
+                    nav ul li a{
+                        font-size: 38px;
+                    }
+}
+/*---DESKTOP---*/
+@media only screen and (min-width: 1024px){
+    header{
+        background-size: 100vw;
+    }
+    #fotoMenu img{
+        width: 20%;
+        margin-left: 12vw;
+    }
+    #tituloCabeçalho{
+        padding-left: 35vw;
+    }
+    #tituloCabeçalho h1{
+        font-size: 50px;
+    }
+    #sounds{
+        margin-top: 0;
+    }
+    #beats{
+        margin-top:0;
+    }
+    #e{
+        margin-top:0;
+    }
+    nav{
+        width: 100vw;
+        margin-left: 0;
+        height: 7.5vh;
+    }
+    nav ul{
+        padding-left: 3.5vw;
+    }
+    nav ul li{
+        width: 15vw;
+        float: left;
+        border-bottom: none;
+    }
+    nav ul li a{
+        font-size: 28px;
+    }
+    main{
+        background-size: 120vw;
+    }
+    main section div div{
+        width: 40vh;
+        height: 40vh;
+    }
+    main section{
+        min-height: 150vh;
+    }
+    #flex1{
+        margin-top: 10vh;
+        margin-bottom: 20vh;
+    }
+    .desk{
+        display: block;
+    }
+    footer{
+        width: 100%;
+        position: relative;
+        height: 20vh;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 17px;
+    }
+    .nomes{
+        height: 10vh;
+    }
+    #tituloMain h2{
+        font-size: 30px;
+    }
+    #insta{
+        width: 4vw;
+        height: 8vh;
+    }
+    #fb{
+        width: 4vw;
+        height: 8vh;
+    }
+    #fone{
+        width: 20vw;
+        height: 15vh;
+    }
+}
+/*---iPad Pro---*/
+@media only screen and (min-width: 1024px)
+                   and (min-height: 1360px){
+                    #insta{
+                        width: 8vw;
+                        height: 6vh;
+                    }
+                    #fb{
+                        width: 8vw;
+                        height: 6vh;
+                    }
+                    h3{
+                        font-size: 36px;
+                    }
+                    h4{
+                        font-size: 31px;
+                    }
+                    #tituloCabeçalho{
+                        padding-left: 5vw;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 80px;
+                    }
+                    #e{
+                        margin-top: 2vh;
+                        margin-left: 5vw;
+                        margin-right: 5vw;
+                    }
+                    #beats{
+                        margin-top: 4vh;
+                    }
+                    #fotoMenu img{
+                        width: 50%;
+                        margin-left: 6vw;
+                    }
+                    #tituloMain h2{
+                        font-size: 55px;
+                    }
+                    nav{
+                        width: 50vw;
+                        margin-left: 50vw;
+                        height: 34vh;
+                    }
+                    nav ul{
+                        padding-left: 0;
+                    }
+                    nav ul li{
+                        width: 100%;
+                        float: none;
+                        border-bottom: 1px solid black;
+                    }
+                    nav ul li a{
+                        font-size: 45px;
+                    }
+                    .desk{
+                        display: none;
+                    }
+                    main section div div{
+                        width: 20vh;
+                        height:20vh;
+                    }
+                    main section{
+                        min-height: 100vh;
+                    }
+                    main{
+                        background-size: 210vw;
+                    }
+                    #flex1{
+                        margin-top: 5vh;
+                        margin-bottom: 2vh;
+                    }
+                    footer{
+                        position: fixed;
+                        height: 14vh;
+                    }
+                    #fone{
+                        height: 14vh;
+                        width: 30vw;
+                    }
+                    .nomes{
+                        height: 7.5vh;
+                    }
+}
+/*---Surface Duo---*/
+@media only screen and (width: 540px)
+                   and (height: 720px){
+                    #insta{
+                        width: 10vw;
+                        height: 5vh;
+                    }
+                    #fb{
+                        width: 10vw;
+                        height: 5vh;
+                    }
+                    main div div{
+                        width: 19vh;
+                        height: 19vh;
+                    }
+                    #flex1{
+                        margin-bottom: 2vh;
+                    }
+                    h3{
+                        font-size: 20px;
+                    }
+                    h4{
+                        font-size: 16px;
+                    }
+                    #tituloMain h2{
+                        font-size: 30px;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 40px;
+                    }
+                    #e{
+                        margin-top: 2vh;
+                        margin-left: 5vw;
+                        margin-right: 5vw;
+                    }
+                    #beats{
+                        margin-top: 4vh;
+                    }
+                    nav ul li a{
+                        font-size: 25px;
+                    }
+                    main{
+                        background-size: 200vw;
+                    }
+}
+/*---Galaxy Fold---*/
+@media only screen and (max-width: 280px)
+                   and (min-height: 650px){
+                    main div div{
+                        width: 12vh;
+                        height: 12vh;
+                    }
+                    main{
+                        background-size: 300vw;
+                    }
+                    h3{
+                        font-size: 13px;
+                    }
+                    h4{
+                        font-size: 13px;
+                    }
+                    #flex1{
+                        margin-top: 9vh;
+                        margin-bottom: 0;
+                    }
+                    #tituloCabeçalho{
+                        padding-top: 0.5vh;
+                    }
+                    #tituloCabeçalho h1{
+                        font-size: 26px;
+                    }
+                    #fotoMenu{
+                        width: 19vw;
+                        height: 11vh;
+                    }
+                    #tituloMain h2{
+                        font-size: 22px;
+                    }
+                    nav{
+                        height: 32vh;
+                    }
+}
